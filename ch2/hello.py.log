@@ -1,0 +1,737 @@
+execve("/home/hhiroki/anaconda3/bin/python", ["python", "./hello.py"], 0x7ffe8c804958 /* 72 vars */) = 0
+brk(NULL)                               = 0x558f81694000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/home/hhiroki/anaconda3/bin/pyth"..., 4096) = 37
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/tls/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/tls/haswell/x86_64", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/tls/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/tls/haswell", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/tls/x86_64", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/tls", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/haswell/x86_64", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/haswell", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib/x86_64", 0x7ffd269c6ef0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/../lib", {st_mode=S_IFDIR|0755, st_size=40960, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=118747, ...}) = 0
+mmap(NULL, 118747, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f98cdc27000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdc25000
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98cd7fe000
+mprotect(0x7f98cd818000, 2093056, PROT_NONE) = 0
+mmap(0x7f98cda17000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f98cda17000
+mmap(0x7f98cda19000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f98cda19000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98cd40d000
+mprotect(0x7f98cd5f4000, 2097152, PROT_NONE) = 0
+mmap(0x7f98cd7f4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f98cd7f4000
+mmap(0x7f98cd7fa000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f98cd7fa000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98cd209000
+mprotect(0x7f98cd20c000, 2093056, PROT_NONE) = 0
+mmap(0x7f98cd40b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f98cd40b000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10592, ...}) = 0
+mmap(NULL, 2105616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98cd006000
+mprotect(0x7f98cd008000, 2093056, PROT_NONE) = 0
+mmap(0x7f98cd207000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f98cd207000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98ccdfe000
+mprotect(0x7f98cce05000, 2093056, PROT_NONE) = 0
+mmap(0x7f98cd004000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f98cd004000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/../lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98cca60000
+mprotect(0x7f98ccbfd000, 2093056, PROT_NONE) = 0
+mmap(0x7f98ccdfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f98ccdfc000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdc23000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdc20000
+arch_prctl(ARCH_SET_FS, 0x7f98cdc20740) = 0
+mprotect(0x7f98cd7f4000, 16384, PROT_READ) = 0
+mprotect(0x7f98ccdfc000, 4096, PROT_READ) = 0
+mprotect(0x7f98cda17000, 4096, PROT_READ) = 0
+mprotect(0x7f98cd004000, 4096, PROT_READ) = 0
+mprotect(0x7f98cd207000, 4096, PROT_READ) = 0
+mprotect(0x7f98cd40b000, 4096, PROT_READ) = 0
+mprotect(0x558f80b9d000, 12288, PROT_READ) = 0
+mprotect(0x7f98cdc44000, 4096, PROT_READ) = 0
+munmap(0x7f98cdc27000, 118747)          = 0
+set_tid_address(0x7f98cdc20a10)         = 12299
+set_robust_list(0x7f98cdc20a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f98cd803cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f98cd8108a0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f98cd803d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f98cd8108a0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x558f81694000
+brk(0x558f816b5000)                     = 0x558f816b5000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4053232, ...}) = 0
+mmap(NULL, 4053232, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f98cc682000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26376, ...}) = 0
+mmap(NULL, 26376, PROT_READ, MAP_SHARED, 3, 0) = 0x7f98cdc3d000
+close(3)                                = 0
+futex(0x7f98cd7f9a08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/home/hhiroki/.cargo/bin/python", 0x7ffd269bb180) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/python", {st_mode=S_IFREG|0775, st_size=12743912, ...}) = 0
+readlink("/home/hhiroki/anaconda3/bin/python", "python3.7", 4096) = 9
+readlink("/home/hhiroki/anaconda3/bin/python3.7", 0x7ffd269b50e0, 4096) = -1 EINVAL (Invalid argument)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/Modules/Setup", 0x7ffd269bb180) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/lib/python3.7/os.py", 0x7ffd269b6070) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/lib/python3.7/os.pyc", 0x7ffd269b6070) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37756, ...}) = 0
+stat("/home/hhiroki/anaconda3/bin/pybuilddir.txt", 0x7ffd269b6160) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/bin/lib/python3.7/lib-dynload", 0x7ffd269b6160) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+read(3, "O\206%-m\306=\7\312\320\272\6\305\265\375\207\310\10C\206\327X\275>", 24) = 24
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdbe0000
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdba0000
+brk(0x558f816da000)                     = 0x558f816da000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdb60000
+sysinfo({uptime=43390, loads=[38304, 72032, 62816], totalram=16199606272, freeram=6363484160, sharedram=2219094016, bufferram=545173504, totalswap=2147479552, freeswap=2147479552, procs=1361, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+brk(0x558f816fc000)                     = 0x558f816fc000
+sigaltstack({ss_sp=0x558f816b3a70, ss_flags=0, ss_size=8192}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat("/home/hhiroki/anaconda3/lib/python37.zip", 0x7ffd269c5f90) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib", {st_mode=S_IFDIR|0755, st_size=40960, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python37.zip", 0x7ffd269c58c0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents(3, /* 213 entries */, 32768)   = 7264
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c5ba0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/__init__.abi3.so", 0x7ffd269c5ba0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/__init__.so", 0x7ffd269c5ba0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5668, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdb20000
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5668, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/encodings/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3924, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3924, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\306 S]$\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 3925) = 3924
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/codecs.py", {st_mode=S_IFREG|0664, st_size=36538, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/codecs.py", {st_mode=S_IFREG|0664, st_size=36538, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/codecs.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=34052, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=34052, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]\272\216\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0,\0\0"..., 34053) = 34052
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 128 entries */, 32768)   = 4336
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/encodings/__pycache__/aliases.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6273, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6273, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\305 S]\331<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0"..., 6274) = 6273
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/encodings/__pycache__/utf_8.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1591, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1591, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\306 S]\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1592) = 1591
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getpid()                                = 12299
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x558f80aa4140, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/encodings/__pycache__/latin_1.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1873, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1873, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\306 S]\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 1874) = 1873
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/io.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3386, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3386, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]\275\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0"..., 3387) = 3386
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/abc.py", {st_mode=S_IFREG|0664, st_size=5580, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/abc.py", {st_mode=S_IFREG|0664, st_size=5580, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6428, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6428, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]\314\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 6429) = 6428
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site.py", {st_mode=S_IFREG|0664, st_size=21307, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site.py", {st_mode=S_IFREG|0664, st_size=21307, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/site.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=16527, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=16527, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S];S\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 16528) = 16527
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdae0000
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37756, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37756, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/os.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=29670, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=29670, ...}) = 0
+brk(0x558f81722000)                     = 0x558f81722000
+read(3, "B\r\r\n\0\0\0\0\301 S]|\223\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0"..., 29671) = 29670
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x558f8171b000)                     = 0x558f8171b000
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/stat.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3850, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3850, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\302 S]\256\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 3851) = 3850
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0664, st_size=15771, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0664, st_size=15771, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/posixpath.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=10406, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=10406, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]\233=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0"..., 10407) = 10406
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/genericpath.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3725, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3725, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]\224\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 3726) = 3725
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26424, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26424, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/_collections_abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=28919, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=28919, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]8g\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0"..., 28920) = 28919
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cdabb000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cda7b000
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/_sitebuiltins.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3442, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3442, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\301 S]+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3443) = 3442
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/bin/pyvenv.cfg", 0x7ffd269c5ae0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/pyvenv.cfg", 0x7ffd269c5ae0) = -1 ENOENT (No such file or directory)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/home/hhiroki/.local/lib/python3.7/site-packages", 0x7ffd269c5d40) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+getdents(3, /* 475 entries */, 32768)   = 20128
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/matplotlib-3.1.1-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=569, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1801, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1801, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/_bootlocale.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=1226, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=1226, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\t\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 1227) = 1226
+read(6, "", 1)                          = 0
+close(6)                                = 0
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 569
+brk(0x558f8173e000)                     = 0x558f8173e000
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/types.py", {st_mode=S_IFREG|0664, st_size=9897, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/types.py", {st_mode=S_IFREG|0664, st_size=9897, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/types.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=8953, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=8953, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\302 S]\251&\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 8954) = 8953
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c3a70) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/__init__.abi3.so", 0x7ffd269c3a70) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/__init__.so", 0x7ffd269c3a70) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=6037, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=6037, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/importlib/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=3709, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=3709, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\305 S]\225\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 3710) = 3709
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/warnings.py", {st_mode=S_IFREG|0664, st_size=20242, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/warnings.py", {st_mode=S_IFREG|0664, st_size=20242, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/warnings.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=13917, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=13917, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\302 S]\22O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 13918) = 13917
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/importlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(6, /* 10 entries */, 32768)    = 328
+getdents(6, /* 0 entries */, 32768)     = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0664, st_size=11319, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0664, st_size=11319, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/importlib/__pycache__/util.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=9333, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=9333, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\305 S]7,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9334) = 9333
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=12873, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=12873, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/importlib/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=13464, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=13464, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\305 S]I2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 13465) = 13464
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/importlib/__pycache__/machinery.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=949, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=949, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\305 S]L\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 950) = 949
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0664, st_size=24762, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0664, st_size=24762, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/contextlib.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=20435, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=20435, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\272`\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 20436) = 20435
+read(6, "", 1)                          = 0
+close(6)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cc642000
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/collections/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c26b0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/collections/__init__.abi3.so", 0x7ffd269c26b0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/collections/__init__.so", 0x7ffd269c26b0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=48363, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=48363, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/collections/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=47053, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=47053, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\305 S]\353\274\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0"..., 47054) = 47053
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/operator.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=13877, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=13877, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]o*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0"..., 13878) = 13877
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/keyword.py", {st_mode=S_IFREG|0775, st_size=2245, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/keyword.py", {st_mode=S_IFREG|0775, st_size=2245, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/keyword.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=1786, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=1786, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\305\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0"..., 1787) = 1786
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/heapq.py", {st_mode=S_IFREG|0664, st_size=23017, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/heapq.py", {st_mode=S_IFREG|0664, st_size=23017, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/heapq.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=14339, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=14339, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\351Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 14340) = 14339
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(6, /* 70 entries */, 32768)    = 4376
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98cc602000
+getdents(6, /* 0 entries */, 32768)     = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload/_heapq.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=65528, ...}) = 0
+futex(0x7f98cd40c0c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/lib-dynload/_heapq.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\20\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0775, st_size=65528, ...}) = 0
+mmap(NULL, 27960, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f98cdc36000
+mmap(0x7f98cdc37000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x1000) = 0x7f98cdc37000
+mmap(0x7f98cdc39000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x3000) = 0x7f98cdc39000
+mmap(0x7f98cdc3a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x3000) = 0x7f98cdc3a000
+close(6)                                = 0
+mprotect(0x7f98cdc3a000, 4096, PROT_READ) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0664, st_size=5267, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0664, st_size=5267, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/reprlib.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=5327, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=5327, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\223\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 5328) = 5327
+read(6, "", 1)                          = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/functools.py", {st_mode=S_IFREG|0664, st_size=32916, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/functools.py", {st_mode=S_IFREG|0664, st_size=32916, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/__pycache__/functools.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=24192, ...}) = 0
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0664, st_size=24192, ...}) = 0
+read(6, "B\r\r\n\0\0\0\0\301 S]\224\200\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 24193) = 24192
+read(6, "", 1)                          = 0
+close(6)                                = 0
+brk(0x558f81762000)                     = 0x558f81762000
+brk(0x558f81759000)                     = 0x558f81759000
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+getdents(6, /* 475 entries */, 32768)   = 20128
+getdents(6, /* 0 entries */, 32768)     = 0
+close(6)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.py", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.pyc", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/mpl_toolkits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/setuptools.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=52, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "/home/hhiroki/anaconda3/lib/pyth"..., 8192) = 52
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_applehelp-1.0.1-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_devhelp-1.0.1-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_htmlhelp-1.0.2-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_jsmath-1.0.1-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_qthelp-1.0.2-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_serializinghtml-1.1.3-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib_websupport-1.1.2-py2.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c5760)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd269c56f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffd269c4ab0) = -1 ENOENT (No such file or directory)
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/hhiroki/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("./hello.py", {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+openat(AT_FDCWD, "./hello.py", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "print(\"hello world.\")\n", 4096) = 22
+close(3)                                = 0
+stat("./hello.py", {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+readlink("./hello.py", 0x7ffd269b62e0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/hhiroki/projects/practice_linux/ch2", 4096) = 42
+lstat("/home/hhiroki/projects/practice_linux/ch2/hello.py", {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+openat(AT_FDCWD, "./hello.py", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd269c7600)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=22, ...}) = 0
+read(3, "print(\"hello world.\")\n", 4096) = 22
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "print(\"hello world.\")\n", 4096) = 22
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+write(1, "hello world.\n", 13)          = 13
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, {sa_handler=0x558f80aa4140, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f98cd8108a0}, 8) = 0
+sigaltstack(NULL, {ss_sp=0x558f816b3a70, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
